@@ -1,49 +1,41 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: 400;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: Arial, Helvetica, sans-serif;
-	vertical-align: baseline;
-}
-
-:focus {
-	outline: 0;
-}
-
-ul, ol {
-	list-style:none;
-}
-
-a { color: #000; }
-a:hover { text-decoration: none; }
-img { max-width: 100%; }
-
 body {
-	background: #FFF;
-	line-height:14pt;
-	color: #000;
-	font-size:14px;
-	line-height: 20pt;
-	text-shadow: #000000 0 0 0px;
-	text-align: center;
-	letter-spacing: 1px;
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFF;
+    color: black;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0 0 0;
+    line-height: 26px;
+    letter-spacing: 1px;
 }
 
-#wrapper {
-	height: 500px;
-	margin: 0pt auto;
-	position: relative;
-	padding-bottom: 50px;
+a {
+    color: black;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+#footer {
+    font-size: 80%;
+    color: darkgrey;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+
+
+#footer a {
+    color: darkgrey;
+    text-decoration: none;
+}
